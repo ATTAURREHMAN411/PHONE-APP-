@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway";
+}
+
+
+:root{
+    --color: var(#0f1111);
+}
+.navbar{
+      background-color: #0f1111;
+    border: 1px solid #0f1111;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    padding: 0 20px  0;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+.input{
+    height: 44px;
+    width: 550px;
+    padding: 0 15px;
+    outline: none;
+    text-align: start;
+    border: none;
+}
+.all{
+    padding: 14px 20px;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    left: 7px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.icon{
+    padding: 5px 15px 10px;
+color: #0f1111;
+border: 1px solid rgba(236, 138, 25, 0.9);
+    background-color: rgba(236, 138, 25, 0.9);
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    right: 6px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.cart{
+    padding: 15px;
+}
+
+.cart-container button{
+    font-size: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent;
+}
+.list{
+    color: #fff;
+    background-color: #283333;
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+}
+.background{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 5px;
+}
+
+main{
+    position: relative;
+    bottom: 4px;
+    /* right: 20px; */
+    background-color: #cccccc71;
+    display: flex;
+}
+.imag{
+    margin-top: 60px;
+    height: 120px ;
+    width: 150px;
+}
+.card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    max-width: 400px;  
+    margin-left: 30px;
+    padding: 10px 40px;
+    position: relative;
+    bottom: 120px;
+}
+
+a button{
+    position: relative;
+    top: 30px;
+    color: rgba(0, 128, 0, 0.623);
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.card-funiture{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    max-width: 400px;  
+    margin-left: 50px;
+    /* padding:  40px; */
+    position: relative;
+    bottom: 125px;
+    padding: 25px 35px 35px 35px;
+}
+
+.card-1-name{
+    position: relative;
+    right: 280px;
+    top: 10px;
+
+}
+
+/* slider-start */
+.slider {
+    overflow: hidden;
+}
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.slider figure img {
+    width: 20%;
+    float: left;
+    height: 550px;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+.cartlink{
+    position: relative;
+    bottom: 25px;
+}
+.allitem i{
+    margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

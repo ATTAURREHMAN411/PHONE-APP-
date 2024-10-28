@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="img-container">
+<img src="amazonlogo.png" alt="">
+
+    </div>
+<div class="deliver">
+<p><i class="fa-solid fa-location-dot"></i> Deliver to</p>
+<h3>Pakistan</h3>
+</div>
+<div class="input-container">
+<button class="all">All</button>
+<input type="text" class="input" placeholder="Search Amazon">
+<button class="icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
+<div class="accountlist">
+<p>Hello, sign in</p>
+<h3>Account & Lista</h3>
+</div>
+<div class="return">
+<p>Returns</p>
+<h3>& Order</h3>
+</div>
+<div class="cart-container">
+
+  <a class="cartlink" href="cart.html"><button onclick="gotocart()"><i class="fa-solid fa-cart-shopping"></i></button></a>
+
+</div>
+</div>
+<div class="list">
+    <div class="allitem"><i class="fa-solid fa-bars"></i>All</div>
+    <p>Today's Deals</p>
+    <p>CustomService</p>
+    <p>Registry</p>
+    <p>Gift Cards</p>
+    <p>Sell</p>
+</div>
+<div class="slider">
+  <figure>
+      <img src="slider1.png" alt="">
+      <img src="slider2.png" alt="">
+      <img src="slider3.png" alt="">
+      <img src="slider4.png" alt="">
+      <img src="slider 6.png" alt="">
+     
+  </figure>
+ </div>
+<img class="background" src="background.png" alt="">
+
+<main>
+  <div class="card">
+    <div class="product">
+      <img class="imag" src="keyboard.jpg" alt="">
+      <p>keyboard</p>
+      <img class="imag" src="mouse.jpg" alt="">
+      <p>mouse</p>
+     
+      <a href="seemore.html"> <button onclick="itemresult(this)">Gaming</button></a>
+    </div>
+    <div class="product">
+      <img class="imag" src="gaming chair.webp" alt="">
+      <p>Chair</p>
+      <img class="imag" src="gaming remote.jpg" alt="">
+      <p>Gaming Remte</p>
+    </div>
+    <h2 class="card-1-name">Gaming </h2>
+    <h2 class="card-1-name">Accessories</h2>
+
+    <!-- card 2 -->
+  </div>
+  <div class="card">
+    <div class="product">
+      <img class="imag" src="airboards.jpg" alt="">
+      <p>Airboards</p>
+      <img class="imag" src="i phone 16.jpg" alt="">
+      <p>IPhone 16</p>
+      <a href="seemore.html"><button onclick="itemresult(this)">Electronics</button></a>
+    </div>
+    <div class="product">
+      <img class="imag" src="mac book.jpg" alt="">
+      <p>Chair</p>
+      <img class="imag" src="apple item.jpg" alt="">
+      <p>Aplle Products</p>
+    </div>
+    <h2 class="card-1-name">Aplle </h2>
+    <h2 class="card-1-name">Products</h2>
+    </div>
+    <!-- card 3 -->
+
+    <div class="card-funiture">
+      <div class="product">
+        <img class="imag" src="chair.webp" alt="">
+        <p>Chair</p>
+        <img class="imag" src="Dining Table.jpg" alt="">
+        <p>Dining Table</p>
+      <a href="seemore.html"><button onclick="itemresult(this)">Funiture</button></a>
+      </div>
+      <div class="product">
+        <img class="imag" src="Queen Bed Frame.jpeg" alt="">
+        <p>Chair</p>
+        <img class="imag" src="sofa.jpg" alt="">
+        <p>Sofa</p>
+      </div>
+      <h2 class="card-1-name">Furniture</h2>
+      <h2 class="card-1-name">Products</h2>
+  </div>
+</main>
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/86c87c2b03.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

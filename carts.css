@@ -1,0 +1,111 @@
+
+
+
+
+body{
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+.carts img{
+    height: 300px;
+    width: 350px;
+
+}
+.carts{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+background-color: #fff;
+padding: 40px;
+}
+.carts-container{
+    margin: 20px;
+}
+.describtion{
+    line-height: 30px;
+}
+.describtion h3 button{
+    margin: 10px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.order:hover{
+    background-color:  rgba(255, 230, 0, 0.555);
+    cursor: pointer;
+
+}
+
+.describtion h3 span{
+    background-color: rgb(255, 230, 0);
+    padding: 8px;
+    border-radius: 4px;
+}
+.order{
+    margin-top: 25px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    background-color: rgb(255, 230, 0);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delet{
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30px;
+    background-color: red;
+}
+.delet:hover{
+    background-color: rgba(255, 0, 0, 0.637);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
